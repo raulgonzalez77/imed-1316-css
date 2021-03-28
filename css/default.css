@@ -2,8 +2,10 @@
 /*default.css will be imported*/
 
 html {
-
 	padding-left: 200px;
 	padding-right: 200px;
+}
 
+body {
+	background-color: yellow;
 }
