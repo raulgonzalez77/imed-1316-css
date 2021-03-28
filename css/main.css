@@ -1,2 +1,9 @@
 /*this is main.css*/
 /*default.css will be imported*/
+
+html {
+
+	padding-left: 200px;
+	padding-right: 200px;
+
+}
