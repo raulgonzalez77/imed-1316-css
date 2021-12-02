@@ -1,0 +1,92 @@
+@media all and (min-width: 992px) {
+	.navbar{ padding-top: 0; padding-bottom: 0; }
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; padding:20px;  }
+	.navbar .nav-link{ padding-top:1rem; padding-bottom:1rem;  }
+}
+
+.navbar {
+  background-color: #0a2240 !important; 
+
+}
+
+.nav-item .nav-link{
+    color: #ffffff !important;
+  font-family: roboto !important;
+  font-size: 18px;
+   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1071px) {
+   .nav-link {
+    border-bottom: 1px solid #ffffff;
+  }
+}
+
+
+.navbar-brand {
+    color: #ffffff !important;
+  font-family: roboto !important;
+  font-size: 18px;
+  font-weight: bold;
+   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1071px) {
+   .separator {
+    display: none;
+  }
+}
+
+.navbar-brand {
+  display: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+   .navbar-brand {
+    display: block !important;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .block_n2_content .links_table, #acalog-nav {
+     display: none;
+  }
+}
+
+
+
+/*OVERRIDES BY RAUL */
+
+/*vertical menu*/
+.tooltip a.navbar:link, .tooltip a.navbar:visited, .toplevel_popup a.navbar:link, .toplevel_popup a.navbar:visited, table.block_n2_and_content a.navbar:link, table.block_n2_and_content a.navbar:visited {
+	/*color: #fff;*/
+	padding-bottom: 0px !important;
+	height: auto !important;
+	background-color: #fff !important;
+	color: #000000 !important;
+	border: 0px !important;
+	font-weight: normal;	
+}
+
+
+.toplevel_popup a.navbar:active, .toplevel_popup a.navbar:hover, table.block_n2_and_content a.navbar:active, table.block_n2_and_content a.navbar:hover, .tooltip a.navbar:active, .tooltip a.navbar:hover {
+	
+font-weight: normal;	
+}
+
+/* this is what it looks like in the HTML <hr class="navbar"> */
+hr.navbar {
+	display: none !important;
+}
+
+#gateway-popup .n2_links, #gateway-page .n2_links {
+    display: block;
+    color: #666666;
+    border-bottom: 0px !important;
+}
+

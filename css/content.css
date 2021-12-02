@@ -1,0 +1,61 @@
+/*tables*/
+.blinn-catalog-table {
+  border-collapse: collapse;
+  width: 100%;
+  /*max-width: 800px;*/
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  margin: auto;
+  text-align: left;
+
+}
+
+.blinn-catalog-table tbody tr:first-of-type td, .blinn-catalog-table tbody tr:first-of-type th {
+  background-color: #0a2240;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.blinn-catalog-table thead tr {
+  background-color: #cccccc;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.blinn-catalog-table th,
+.blinn-catalog-table td {
+  padding: 12px;
+}
+
+.blinn-catalog-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.blinn-catalog-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.blinn-catalog-table tbody tr:last-of-type {
+  border-bottom: 3px solid #0a2240;
+}
+/*tables*/
+
+h2 {
+	text-transform: none;
+	font-weight: normal;
+	color: #0a2240 !important;
+}
+
+
+/*GRADUATION GUARANTEE*/
+.graduation-guarantee td {
+	
+	width: 33%;
+	
+}
+
+.accreditation-accreditation-table td {
+	
+	width: 33%;
+	
+}
+
