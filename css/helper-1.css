@@ -15,15 +15,15 @@
 /* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
 /* Set the border color */
 .custom-toggler.navbar-toggler {
-  border-color: #ffffff;
+  border-color: #ffffff !important;
 }
 
 /*remove outline when hamburguer menu icon is clicked*/
 .custom-toggler:focus,
 .custom-toggler:active,
 .navbar-toggler-icon:focus {
-  outline: none;
-  box-shadow: none;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Setting the stroke to green using rgb values (0, 128, 0) */
